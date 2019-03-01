@@ -2,7 +2,7 @@
 
 
 function main_handler($event, $context) {
-    print_r($event);
+    var_dump($event);
     return "hello world";
 }
 

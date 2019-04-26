@@ -13,11 +13,11 @@ Resources:
         Handler: index.main_handler
         MemorySize: 128
         {%- if cookiecutter.runtime == 'php7' %}
-        Runtime: Php7
+        Runtime: PHP7
         {%- elif cookiecutter.runtime == 'php5' %}
-        Runtime: Php5
+        Runtime: PHP5
         {%- else %}
-        Runtime: Php7
+        Runtime: PHP7
         {%- endif %}
         Timeout: 3
         #Events:
